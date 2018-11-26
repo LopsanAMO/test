@@ -201,7 +201,7 @@ class Common(Configuration):
         )
     }
 
-    GOOGLE_API_KEY = 'AIzaSyAs5AWqVt-KHNqC6F3H7alH_vELQ2QWgyc'
+    GOOGLE_API_KEY = os.getenv('GOOGLE_API_KEY')
 
     CACHES = {
         "default": {
