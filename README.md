@@ -1,9 +1,6 @@
-# Test
+# Grin Test
+ [![Run in Postman](https://run.pstmn.io/button.svg)](https://app.getpostman.com/run-collection/096cb959dfa9114a426e#?env%5Bgrin_env%5D=W3sia2V5IjoibG9jYWxfdXJsIiwidmFsdWUiOiJodHRwOi8vbG9jYWxob3N0OjgwMDAvIiwiZGVzY3JpcHRpb24iOiIiLCJ0eXBlIjoidGV4dCIsImVuYWJsZWQiOnRydWV9XQ==)
 
-[![Build Status](https://travis-ci.org/LopsanAMO/Test.svg?branch=master)](https://travis-ci.org/LopsanAMO/Test)
-[![Built with](https://img.shields.io/badge/Built_with-Cookiecutter_Django_Rest-F7B633.svg)](https://github.com/agconti/cookiecutter-django-rest)
-
-Its all about a Weissman score > 5.0. Check out the project's [documentation](http://LopsanAMO.github.io/Test/).
 
 # Prerequisites
 
@@ -23,6 +20,10 @@ Run a command inside the docker container:
 ```bash
 docker-compose run --rm web [command]
 ```
+
+# Documentation
+
+Once running the project locally go to `http://localhost:8001/` to see the complete documentation, there you will find a dropdown that says API, there you will find all the documentation of the api
 
 # Continuous Deployment
 
@@ -73,3 +74,4 @@ git push origin master
 ```
 
 You're now ready to continuously ship! ✨ 💅 🛳
+
