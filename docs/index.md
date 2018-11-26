@@ -21,6 +21,9 @@ Create a superuser to login to the admin:
 docker-compose run --rm web ./manage.py createsuperuser
 ```
 
+# Notes
+To make everything work, you must add a valid `GOOGLE_API_KEY` and add it to the file `docker-compose.yml`, without that key, nothing will work
+
 
 # Continuous Deployment
 

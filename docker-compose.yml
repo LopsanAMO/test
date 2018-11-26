@@ -12,6 +12,7 @@ services:
     restart: always
     environment:
       - DJANGO_SECRET_KEY=local
+      - GOOGLE_API_KEY=<YOUR_GOOGLE_API_KEY>
     image: web
     build: ./
     command: >

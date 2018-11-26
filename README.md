@@ -22,8 +22,10 @@ docker-compose run --rm web [command]
 ```
 
 # Documentation
-
 Once running the project locally go to `http://localhost:8001/` to see the complete documentation, there you will find a dropdown that says API, there you will find all the documentation of the api
+
+# Notes
+To make everything work, you must add a valid `GOOGLE_API_KEY` and add it to the file `docker-compose.yml`, without that key, nothing will work
 
 # Continuous Deployment
 
